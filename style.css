@@ -255,7 +255,7 @@ h2 {
     color: #111;
     float: right;
     font-size: 14px;
-    margin-top: -20px;
+    margin-top: -30px;
 }
 @media (max-width: 768px) {
     h1 {
@@ -298,6 +298,7 @@ h2 {
 /* contact */
 .container {
     text-align: center;
+    grid-template-columns: 22;
 }
 .container h1 {
     color: black;
@@ -313,6 +314,9 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
 }
 .container button:hover {
     background-color: #d40813;
